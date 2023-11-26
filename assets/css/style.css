@@ -1,0 +1,1307 @@
+/* =========== Variable Css Start =========== */
+:root {
+    --light: #ffffff;
+    --dark: #000000;
+    --primary-color-light: #ff6f61;
+    --primary-color-dark: #ff5645;
+    --paragraph-color: #444444;
+    --bg-light: #f1f1f1;
+    --bg-medium: #f1f3f4;
+    --bg-dark: #bdbdbd;
+    --text-color: #11161e;
+    --dark-hover: #151a32;
+    --h1_color: #1d1d1d;
+}
+
+/* =========== Variable Css End =========== */
+
+/* =========== Top Bar Section Css Start =========== */
+#top_bar {
+    background-color: var(--dark-hover);
+    color: var(--light);
+    padding: 11px 0;
+}
+
+#top_bar p, span{
+    font-size: 16px;
+    font-weight: 400;
+    color:var(--light);
+}
+
+#top_bar .left i,
+#top_bar .left p span:last-child {
+    color: var(--primary-color-light);
+}
+
+#top_bar .right ul:first-child li {
+    border-right: 1px solid #8c8c8c;
+    padding: 0 20px;
+}
+
+#top_bar .right ul:first-child li a {
+    font-family: var(--body-font);
+    color: var(--light);
+    font-size: 16px;
+    line-height: 28px;
+    transition: 0.4s;
+}
+
+#top_bar .right ul:first-child li select {
+    cursor: pointer;
+    border: none;
+    background: none;
+    color: var(--light);
+}
+
+#top_bar .right ul:first-child li select option {
+    background-color: var(--dark-hover);
+    padding: 5px 10px;
+}
+#top_bar .right ul:first-child li select:focus {
+    outline: 0;
+}
+
+#top_bar .right ul:last-child li a {
+    color: var(--light);
+    padding: 0 5px;
+    font-size: 20px;
+    transition: 0.4s;
+}
+
+#top_bar .right ul:last-child li a:hover{
+    color: var(--primary-color-light);
+}
+
+#top_bar .right ul:first-child li a:hover {
+    color: var(--primary-color-light);
+}
+
+/* =========== Top Bar Section Css End =========== */
+
+/* =========== Nav Bar Section Css Start =========== */
+#primary_nav #primary_menu ul:first-child li a {
+    font-size: 16px;
+    line-height: 26px;
+    color: var(--text-color);
+    text-transform: capitalize;
+    padding: 37px 14px;
+    transition: 0.4s;
+}
+
+#primary_nav #primary_menu ul:last-child li a{
+    font-size: 24px;
+    border: none;
+    background: none;
+    color: var(--dark-hover);
+    padding: 0 10px;
+    transition: 0.4s;
+}
+
+#primary_nav #primary_menu ul:last-child li button {
+    font-size: 24px;
+    border: none;
+    background: none;
+    color: var(--dark-hover);
+    padding: 0 10px;
+    transition: 0.4s;
+}
+
+#primary_nav #primary_menu ul:last-child li a:hover,
+#primary_nav #primary_menu ul:last-child li button:hover,
+#primary_nav #primary_menu ul:first-child li a:hover,
+#primary_nav #primary_menu ul:first-child li a.active {
+    color: var(--primary-color-light);
+}
+
+#primary_nav #primary_menu ul:last-child li button span {
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 15px;
+    height: 15px;
+    font-size: 14px;
+    line-height: 14px;
+    color: var(--light);
+    border-radius: 50%;
+    background-color: var(--primary-color-light);
+    display: inline-block;
+    padding: 3px;
+}
+/* =========== Nav Bar Section Css End =========== */
+
+/***** Hero Section Start *****/
+
+ /* --=================== Start All Section Common CSS Style Here===================-- */
+
+.section_content h1 {
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 74px;
+}
+
+.section_content h2 {
+   color: var(--light);
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 58px;
+    margin-bottom: 16px;
+}
+
+.section_content h3 {
+    color: var(--text-color);
+    font-size: 36px;
+    line-height: 46px;
+    font-weight: 700;
+}
+
+.section_content h4 {
+    color: var(--light);
+    font-size: 24px;
+    line-height: 34px;
+    font-weight: 700;
+}
+
+.section_content h5 {
+    color: var(--text-color);
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 30px;
+}
+
+.section_content h6 {
+    color: var(--text-color);
+    font-size: 18px;
+    line-height: 28px;
+    font-weight: 600;
+
+}
+
+.section_content a {
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+}
+
+.section_content p {
+    color: var(--paragraph-color);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+
+}
+
+.section_content .p_sm {
+    color: var(--paragraph-color);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+.section_content .sec_btn_sm {
+    font-family: var(--primary_font);
+    color: var(--text-color);
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 28px;
+}
+
+.section_content .sec_btn_lg {
+    font-family: var(--primary_font);
+    color: var(--light);
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 30px;
+}
+
+.section_content .sec_btn_lg i,
+.section_content .sec_btn_sm i {
+    height: 10px;
+    width: 17px;
+    line-height: 10px;
+}
+
+.section_content p {
+    font-size: 16px;
+    line-height: 28px;
+    font-weight: 400;
+}
+
+.icon_box_24 i {
+    text-align: center;
+    font-size: 20px;
+    width: 24px;
+    height: 24px;
+    line-height: 24px;
+    background-color: var(--light);
+    margin:0 5px;
+}
+
+.icon_box_36 i {
+    text-align: center;
+    width: 36px;
+    height: 36px;
+    line-height: 36px;
+    font-size: 20px;
+}
+.section_content .bg_hover_light:hover,
+.section_content .btn_hover_light:hover{
+    background-color: var(--primary_color_orange_light);
+}
+
+.section_content .bg_white{
+    background-color: var(--light);
+}
+
+.section_content .bg_light{
+    color: var(--primary-color-light);
+}
+
+/* =========Start Product_box CSS Style ========= */
+.section_content .product_img_box {
+    position: relative;
+}
+
+.section_content .product_img_box img.hidden_img {
+    position: absolute;
+    inset: 0;
+    z-index: 4;
+    transition: 0.4s ease;
+}
+
+.section_content .product_img_box:hover img.hidden_img {
+    opacity: 0;
+    visibility: hidden;
+    transform: scale(0.1);
+}
+
+.product_img_box .icon_box_36 {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    z-index: 5;
+}
+
+.product_img_box .icon_box_36 li {
+    position: absolute;
+    right: -20px;
+    transition: 0.3s linear;
+    opacity: 0;
+    visibility: hidden;
+}
+
+.product_img_box .icon_box_36 li:nth-child(1) {
+    top: 0px;
+    transition-delay: 0.1s;
+}
+
+.product_img_box .icon_box_36 li:nth-child(2) {
+    top: 40px;
+    transition-delay: 0.2s;
+}
+
+.product_img_box .icon_box_36 li:nth-child(3) {
+    top: 80px;
+    transition-delay: 0.3s;
+
+}
+
+.product_img_box .icon_box_36 li:nth-child(4) {
+    top: 120px;
+    transition-delay: 0.4s;
+}
+
+.product_img_box:hover .icon_box_36 li {
+    right: 20px;
+    opacity: 1;
+    visibility: visible;
+}
+
+.section_content .product_img_box .shape_box {
+    position: absolute;
+    top: 10px;
+    left: 24px;
+    width: 67px;
+    height: 24px;
+    text-align: center;
+    color: var(--light);
+    z-index: 6;
+    border-radius: 13px 0 0 13px;
+    transform: rotate(270deg);
+    background-color: var(--primary-color-light);
+    transform-origin: bottom;
+}
+
+.section_content  .essential_img_box {
+   margin-right: 10px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   text-align: center;
+   width: 70px;
+   height: 70px;
+   background-color: var(--primary-color-light);
+   border-radius: 50%;
+}
+
+.section_content .essential_img_box img {
+	width: 40px;
+	height: 40px;
+}
+/* ========== Start Slick Arrows  CSS Style ========= */
+.section_content .arrow_box {
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+}
+
+.section_content .arrow_left,
+.section_content .arrow_right {
+   position: absolute;
+   font-size: 25px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   width: 40px;
+   height: 40px;
+   color: var(--light);
+   background-color: var(--primary-color-light);
+   line-height: 40px;
+   text-align: center;
+   border-radius: 50%;
+   border: 1px solid var(--paragraph-color);
+   transition: 0.5s;
+}
+
+.section_content .arrow_left {
+   top: 50%;
+   left: -50px;
+   transform: translateY(-50%);
+}
+
+.section_content .arrow_right {
+   top: 50%;
+   right: -50px;
+   transform: translateY(-50%);
+}
+
+.section_content .arrow_left:hover,
+.section_content .arrow_right:hover {
+   background-color: var(--light);
+   color: var(--primary-color-light);
+   border-color: transparent;
+}
+
+/* ========== End Slick Arrows  CSS Style ========= */
+
+/* ========== End slick Dots  CSS Style ========= */
+.section_content .slick-dots {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	position: absolute;
+	bottom: 0%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+.section_content .slick-dots li button{
+    padding: 0;
+    border: none;
+    font-size: 0;
+    background-color: none;
+}
+
+.section_content .slick-dots li{
+    width: 10px;
+    height: 6px;
+    background-color:#BDBDBD;
+    border-radius: 5px;
+    margin: 0 5px;
+    transition: 0.5s;
+}
+
+.section_content .slick-dots li.slick-active{
+    width: 28px;
+    background-color: var(--primary-color-light);
+}
+
+/* ========== End slick Dots  CSS Style ========= */
+
+/* --=================== End All Section Common CSS Style Here===================-- */
+
+/* -- =================== start Page Bannar Section CSS Style Here =================== -- */
+#page_bannar {
+    position: relative;
+    height: 400px;
+    background-size: cover;
+    background-position: center;
+    z-index: 1;
+}
+
+#page_bannar::after {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background-color: rgba(0, 0, 0, 0.8);
+    z-index: -1;
+}
+
+#page_bannar .section_content a {
+    color: var(--light);
+}
+
+#page_bannar .breadcrumb li::before {
+    color: var(--light);
+    line-height: 28px;
+}
+
+/* -- =================== End Page Bannar Section CSS Style Here =================== -- */
+
+/* --=======Start Home_page_Bannar section CSS Style Here ======= -- */
+#home_page_bannar {
+    position: relative;
+}
+
+#home_page_bannar .bannar_sliding_box .bannar_sliding_item {
+    height: 800px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#home_page_bannar .bannar_sliding_item h1 {
+    color: var(--light);
+    padding: 14px 0 16px;
+
+}
+
+#home_page_bannar .bannar_sliding_item p {
+    color: var(--light);
+    padding-bottom: 29px;
+}
+
+#home_page_bannar .bannar_sliding_item:nth-child(3) h1,
+#home_page_bannar .bannar_sliding_item:nth-child(3) h6,
+#home_page_bannar .bannar_sliding_item:nth-child(3) p {
+    color: var(--light) !important;
+}
+
+#home_page_bannar .bannar_sliding_item a {
+    padding: 13px 37px;
+    background-color: var(--primary-color-light);
+    transition: 0.5s ease;
+}
+
+#home_page_bannar .bannar_sliding_item a:hover {
+    background-color: var(--light);
+    color: var(--primary-color-light);
+}
+#home_page_bannar .arrow_box{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+#home_page_bannar .arrow_box .arrow_left{
+    position: absolute;
+    top: 200px;
+    left: -50px;
+}
+#home_page_bannar .arrow_box .arrow_right{
+    position: absolute;
+    top: 200px;
+    right: -50px;
+}
+#home_page_bannar.dot_items{
+    position: absolute; 
+    bottom:180px;
+    left: 50px;
+}
+
+/* --======= End Home_page_Bannar section CSS Style Here ======= -- */
+
+/* --======= Start Home_page_Mini_Bannar section CSS Style Here ======= -- */
+#home_page_mini_bannar {
+    padding: 100px 0;
+}
+
+#home_page_mini_bannar .mini_bannar_item {
+    position: relative;
+}
+
+#home_page_mini_bannar .mini_bannar_left .mini_bannar_item:first-child {
+    margin-bottom: 20px;
+}
+
+#home_page_mini_bannar .home_page_mini_bannar .overlay {
+    position: absolute;
+    inset: 20px 30px;
+    background-color: rgba(17, 22, 30, 0.4);
+    transform: scale(0);
+    transition: 0.5s linear;
+    opacity: 0;
+    visibility: hidden;
+}
+
+#home_page_mini_bannar .home_page_mini_bannar .mini_bannar_item:hover .overlay {
+    transform: scale(1);
+    opacity: 1;
+    visibility: visible;
+    z-index: 2;
+}
+
+#home_page_mini_bannar .mini_bannar_item .overlay_info_box {
+    position: absolute;
+    left: 50%;
+    bottom: 10%;
+    transform: translate(-50%, 50%);
+    transition: 0.5s;
+    opacity: 0;
+    visibility: hidden;
+    z-index: 3;
+}
+
+#home_page_mini_bannar .mini_bannar_item:hover .overlay_info_box {
+    opacity: 1;
+    visibility: visible;
+    bottom: 50%;
+}
+
+#home_page_mini_bannar .home_page_mini_bannar .overlay_info_box h4 {
+    font-size: 30px;
+    line-height: 40px;
+    text-align: center;
+    text-transform: capitalize;
+    color: var(--light);
+    margin-bottom: 12px;
+}
+
+#home_page_mini_bannar .home_page_mini_bannar .overlay_info_box a {
+    color: var(--light);
+    transition: 0.4s ease;
+}
+
+#home_page_mini_bannar .home_page_mini_bannar .overlay_info_box a:hover {
+    color: var(--primary-color-light);
+}
+
+/* --======= End Home_page_Mini_Bannar section CSS Style Here ======= -- */
+
+/* --======= Start Home_page_Arrival Section  CSS Style Here ======= -- */
+#home_page_arrival_product {
+    position: relative;
+}
+
+#home_page_arrival_product .section_content h3 {
+    padding-bottom: 36px;
+}
+
+#home_page_arrival_product .product_box {
+    margin: 12px;
+    ;
+}
+
+#home_page_arrival_product .product_img_box .icon_box_36 i {
+    color: var(--primary-color-dark);
+    background-color: var(--light);
+    border-radius: 50%;
+}
+
+#home_page_arrival_product .product_img_box .icon_box_36 a:hover i {
+    background-color: var(--primary-color-light);
+    color: var(--light);
+}
+
+#home_page_arrival_product .product_img_box .shape_box p {
+    color: var(--light);
+}
+
+#home_page_arrival_product .product_info_box {
+    padding: 24px 0 26px;
+}
+
+#home_page_arrival_product .product_info_box p i{
+    color: var(--primary-color-light);
+}
+
+#home_page_arrival_product .product_info_box h6 {
+    padding: 5px 0 11px;
+}
+
+#home_page_arrival_product .product_info_box h6:hover {
+    color: var(--primary_color_light);
+}
+
+#home_page_arrival_product .section_content .sec_btn_lg {
+    padding: 13px 27px;
+    background-color: var(--primary-color-light);
+    color: var(--light);
+}
+
+/* --======= End Home_page_Arrival Section  CSS Style Here ======= -- */
+
+/* --======= Start Home_page_Offer Section  CSS Style Here ======= -- */
+#home_page_offer {
+    margin: 100px 0;
+    position: relative;
+    height: 524px;
+    background-size: cover !important;
+    background-position: center !important;
+}
+
+#home_page_offer::after {
+    position: absolute;
+    content: "";
+    inset: 0;
+    background-color: rgba(255, 255, 255, 0.1);
+    z-index: 7;
+    transition: .5s;
+    transform: scaleX(0) scaleY(0) rotate(80deg) skew(45deg);
+    transform-origin: center;
+}
+
+#home_page_offer:hover::after {
+    transform: scaleX(5) scaleY(1);
+    transition: 0.5s all ease-in-out;
+    transition-duration: 1s;
+    opacity: 0;
+
+}
+
+#home_page_offer .section_content p {
+    text-align: center;
+    color: var(--light);
+    padding: 10px 0 30px;
+}
+
+#home_page_offer .section_content .sec_btn_lg {
+    padding: 13px 34px;
+    background-color: transparent;
+    border: 1px solid var(--light);
+    color: var(--light);
+}
+
+#home_page_offer .section_content a:hover {
+    background-color: var(--primary-color-light);
+    border-color: transparent;
+}
+
+/* --======= End Home_page_Offer Section  CSS Style Here ======= -- */
+
+/* --======= End Home_page_Best_seller Section CSS Style Here ======= -- */
+#home_page_best_seller {
+    position: relative;
+}
+
+#home_page_best_seller .section_content h3 {
+    padding-bottom: 32px;
+}
+
+#home_page_best_seller .product_box {
+    padding: 12px;
+}
+
+#home_page_best_seller .product_img_box .icon_box_36 i {
+    color: var(--primary-color-dark);
+    background-color: var(--light);
+    border-radius: 50%;
+}
+
+#home_page_best_seller .product_img_box .icon_box_36 a:hover i {
+    background-color: var(--primary-color-light);
+}
+
+#home_page_best_seller .product_img_box .shape_box p {
+    color: var(--light);
+}
+
+#home_page_best_seller .product_info_box {
+    padding: 24px 0 26px;
+}
+
+#home_page_best_seller .product_info_box h6 {
+    padding: 5px 0 11px;
+}
+
+#home_page_best_seller .product_info_box h6:hover {
+    color: var(--primary_color_light);
+}
+
+#home_page_best_seller .section_content .sec_btn_lg {
+    padding: 13px 27px;
+    background-color: var(--primary-color-light);
+    color: var(--light);
+}
+#home_page_best_seller .section_content p.icon_box_24 i{
+    color: var(--primary-color-light);
+}
+
+/* --======= End Home_page_Best_seller Section CSS Style Here ======= -- */
+
+/* --======= Start Home_page_Deal_Offer Section CSS Style Here ======= -- */
+#home_page_deals_offer {
+    position: relative;
+    margin: 100px 0;
+    padding-top: 30px;
+}
+
+#home_page_deals_offer .deals_offer_sliding_box {
+    padding: 100px 40px 60px;
+    background-color: var(--bg-light);
+}
+
+#home_page_deals_offer .deals_sliding_item {
+    position: relative;
+    padding: 12px 0;
+}
+
+#home_page_deals_offer .deals_sliding_item::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    transform: scaleY(0%);
+    background-color: rgba(255, 255, 255, 0.4);
+    transition: 0s linear;
+}
+
+#home_page_deals_offer .deals_sliding_item:hover::before {
+    content: "";
+    transition: 0.5s all ease-in-out;
+    transition-duration: 1s;
+    transform: scaleY(100%);
+    opacity: 0;
+}
+
+#home_page_deals_offer .deals_sliding_item::after {
+    content: '';
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    transform: scaleX(0%);
+    background-color: rgba(255, 255, 255, 0.4);
+    transition: 0s linear;
+  
+}
+
+#home_page_deals_offer .deals_sliding_item:hover::after {
+    content: "";
+    transition: 0.4s all ease-in-out;
+    transition-duration: 1s;
+    transform: scaleX(100%);
+    opacity: 0;
+}
+
+#home_page_deals_offer .time_box {
+    position: absolute;
+    left: 50%;
+    top: 100px;
+    height: 70px;
+    border: 1px solid var(--bg-medium);
+    background-color: var(--light);
+    border-radius: 40px;
+    transform: translate(-50%);
+    z-index: 1;
+}
+
+#home_page_deals_offer .time_box h5{
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 34px;
+    color:var(--text-color);
+}
+
+#home_page_deals_offer .time_box p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color:var(--text-color);
+}
+
+#home_page_deals_offer .time_box span{
+    font-size: 42px;
+    font-weight: 700;
+    padding: 0 10px;
+    color:var(--primary-color-light);
+}
+
+#home_page_deals_offer .deals_sliding_item_box {
+    padding: 30px;
+    background-size: cover;
+    background-position: center;
+    margin: 12px;
+}
+
+#home_page_deals_offer h2{
+    color: var(--text-color);
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 58px;
+    margin-bottom: 50px;
+}
+#home_page_deals_offer .section_content>h3 {
+    padding-bottom: 78px;
+    color: var(--light);
+}
+
+#home_page_deals_offer .section_content h6 {
+    color: var(--light);
+    padding-bottom: 10px;
+}
+
+#home_page_deals_offer .section_content p.p_pad{
+    padding: 16px 0 19px;
+    color: var(--paragraph-color);
+}
+
+#home_page_deals_offer .deals_sliding_item .sec_btn_sm {
+    color: var(--light);
+    background-color: var(--primary-color-dark);
+    padding: 13px 27px;
+    margin-top: 30px;
+}
+
+#home_page_deals_offer .section_content .slick-dots{
+    bottom: 40px;
+}
+
+/* --======= End Home_page_Deal_Offer Section CSS Style Here ======= -- */
+
+/* --======= Start Home_page_Special_Offer Section Here ======= -- */
+#home_page_spacial_offer {
+    background-color: #F1F3F4;
+    position: relative;
+}
+
+#home_page_spacial_offer .img_video_link_box {
+    position: absolute;
+    right: 0;
+    top: 0;
+    height: 100%;
+    width: 50%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#home_page_spacial_offer .img_video_link_box img {
+    width: 100%;
+    height: 100%;
+}
+
+#home_page_spacial_offer .bg_info {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    left: 50%;
+    top: 50%;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transform: translate(-50%, -50%);
+    background-color: var(--white_color);
+
+}
+
+#home_page_spacial_offer .bg_info::after {
+    position: absolute;
+    content: '';
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    background-color: var(--white_color);
+    opacity: 0;
+    animation: move_11 5s infinite;
+    z-index: -1;
+    transform: scale(1.2);
+}
+
+#home_page_spacial_offer .bg_info::before {
+    position: absolute;
+    content: '';
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    background-color: var(--white_color);
+    opacity: 0;
+    animation: move_11 5s infinite 2s;
+    transform: scale(1);
+    z-index: -1;
+}
+
+@keyframes move_11 {
+    0% {
+        opacity: 0;
+    }
+
+    40% {
+        opacity: 0.4;
+    }
+
+    100% {
+        opacity: 0;
+        transform: scale(1.6);
+    }
+
+}
+
+#home_page_spacial_offer .section_content .sec_btn_round i {
+    font-size: 50px;
+    color: var(--primary_color_orange_light);
+    margin: 0;
+    padding: 0;
+    z-index: 5;
+    ;
+}
+
+#home_page_spacial_offer .spacial_box {
+    padding: 30px 20px;
+}
+
+#home_page_spacial_offer .section_content h6 {
+    padding-bottom: 10px;
+    color: var(--p_color)
+}
+
+#home_page_spacial_offer .section_content h3 {
+    color: var(--text-color)
+}
+
+#home_page_spacial_offer .section_content p {
+    color: var(--p_color);
+    padding: 16px 0 30px;
+}
+
+#home_page_spacial_offer .section_content .sec_btn_lg {
+    background-color: var(--primary_color_orange_light);
+    padding: 14px 23px;
+    background-image: url(../images/btn_bg.png);
+    background-position: right top;
+    background-repeat: no-repeat;
+    transition: 1s;
+}
+
+#home_page_spacial_offer .section_content .sec_btn_lg:hover {
+    background-position: left bottom;
+}
+
+/* --======= End Home_page_Special_Offer Section Here ======= -- */
+
+/* -- ======= End Home_page_Latest News Section Here ======= -- */
+#home_page_latest {
+    padding: 115px 0 100px;
+}
+
+#home_page_latest .section_content .latest_box {
+    margin-bottom: 20px 0;
+    padding: 20px 0;
+    position: relative;
+}
+
+#home_page_latest .latest_item {
+    padding: 20px;
+    margin: 12px;
+    background-color: var(--white_color);
+}
+
+
+
+
+#home_page_latest .latest_item .img_box {
+    margin-bottom: 35px;
+    position: relative;
+}
+
+#home_page_latest .latest_item .img_box::after {
+    content: '';
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    transform: scaleX(0);
+    transition: 0s linear;
+    background-color: rgba(255, 255, 255, 0.4);
+    ;
+    transform-origin: center;
+}
+
+#home_page_latest .latest_item .img_box::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    transform: scaleY(0);
+    transition: 0s linear;
+    background-color: rgba(255, 255, 255, 0.4);
+    ;
+    transform-origin: center;
+}
+
+#home_page_latest .latest_item .img_box:hover::after {
+    transform: scaleX(1);
+    transition: 0.5s all ease-in-out;
+    opacity: 0;
+}
+
+#home_page_latest .latest_item .img_box:hover::before {
+    transform: scaleY(1);
+    transition: 0.5s all ease-in-out;
+    opacity: 0;
+}
+
+
+#home_page_latest .latest_item>p {
+    padding: 11px 0 37px;
+}
+
+#home_page_latest .latest_item .anchor_p_box {
+    padding: 27px 0;
+    box-shadow: 0 0 2px rgba(0, 0, 0, 0.5);
+}
+
+#home_page_latest .latest_item .latest_box {
+    padding: 36px 0 40px;
+}
+
+#home_page_latest .latest_item h5:hover,
+#home_page_latest .latest_item .anchor_p_box a:hover,
+#home_page_latest .latest_item .anchor_p_box p:hover {
+    color: var(--primary_color_orange_light);
+}
+
+/* -- ======= End Home_page_Latest News Section Here ======= -- */
+
+/* -- ======= Start Home_page_essential Section Here ======= -- */
+#home_page_essential {
+    margin-top: 100px;
+}
+
+#home_page_essential .section_content {
+    position: absolute;
+    padding: 45px 38px;
+    background-color: var(--light);
+    box-shadow: rgba(21, 26, 50, 0.10);
+    left: 0;
+    bottom: 0;
+    transform: translateY(50%);
+    z-index: 10;
+}
+
+/* -- ======= End Home_page_essential Section Here ======= -- */
+
+/* -- ======= Start Home_page_story Section CSS Style Here ======= -- */
+#home_page_stroy .section_content .sec_btn_round i {
+    color: var(--primary_color_orange_light);
+    text-align: center;
+    line-height: 40px;
+    width: 40px;
+    height: 40px;
+    font-size: 30px;
+    background-color: var(--white_color);
+    border-radius: 50%;
+    animation: move 1s infinite ease-in-out;
+    box-shadow: 0 0 1rem #FFFFFF;
+}
+
+@keyframes move {
+    0% {
+        box-shadow: 0 0 5rem rgba(255, 255, 255, 1);
+        transition: 3s;
+    }
+
+    10% {
+        box-shadow: 0 0 7rem rgba(255, 255, 255, 0.9);
+        transition: 2.7s;
+    }
+
+}
+
+
+/* -- ======= End Home_page_essential Section Here ======= -- */
+
+/***** Hero Section End *****/
+
+/* =========== Footer Section Css Start =========== */
+footer {
+    background-color: var(--text-color);
+}
+footer .footer_upper {
+    border-bottom: 1px solid var(--paragraph-color);
+    padding: 76px 0;
+}
+footer .footer_upper .widget-1 ul li a {
+    width: 40px;
+    height: 40px;
+    background-color: var(--light);
+    color: var(--paragraph-color);
+    margin-right: 10px;
+    font-size: 20px;
+    text-align: center;
+    line-height: 40px;
+    transition: 0.4s;
+}
+footer .footer_upper .widget-1 ul li a:hover {
+    background-color: var(--primary-color-light);
+    color: var(--light);
+}
+footer .footer_lower {
+    color: var(--light);
+    padding: 70px 0;
+}
+footer .footer_lower .widget h4 {
+    font-size: 24px;
+    line-height: 34px;
+    margin-bottom: 22px;
+}
+footer .footer_lower .widget nav ul li a {
+    color: var(--light);
+    font-family: var(--body-font);
+    font-size: 16px;
+    line-height: 28px;
+    text-transform: capitalize;
+    transition: 0.4s;
+}
+footer .footer_lower .widget nav ul li a:hover {
+    color: var(--primary-color-light);
+}
+footer .footer_lower .widget nav ul li a::before {
+    content: "\f054";
+    font-family: "Font Awesome 6 Free";
+    font-weight: 700;
+    padding-right: 7px;
+}
+footer .footer_lower .widget.widget-6 table tr {
+    font-family: var(--body-font);
+    font-size: 16px;
+    line-height: 28px;
+}
+footer .footer_lower .widget.widget-6 table tr th {
+    padding-right: 13px;
+}
+
+footer .footer_lower .widget-7{
+    color: var(--light);
+    font-family: var(--body-font);
+    line-height: 28px;
+} 
+footer .footer_lower .widget-7 a {
+    color: var(--light);
+    font-family: var(--body-font);
+    line-height: 28px;
+}
+footer .footer_lower .widget-7 li {
+    margin-bottom: 5px;
+}
+footer .footer_lower .widget.widget-7 i {
+    font-size: 24px;
+    color: var(--primary-color-light);
+    padding-right: 10px;
+}
+footer .footer_lower .widget-8 p {
+    font-family: var(--body-font);
+    margin-bottom: 23px;
+    line-height: 28px;
+}
+footer .footer_lower .widget-8 form {
+    background-color: var(--light);
+}
+footer .footer_lower .widget-8 input {
+    background: none;
+    border: none;
+    padding: 11px 10px;
+    line-height: 28px;
+    font-family: var(--body-font);
+}
+footer .footer_lower .widget-8 button {
+    border: none;
+    color: var(--light);
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 30px;
+    background: var(--primary-color-light);
+    padding: 8px 17px;
+}
+
+/* =========== Footer Section Css End =========== */
+
+/* =========== Copyright Section Css Start =========== */
+#copyright{
+    background-color: rgba(255, 2555, 255, 0.1);
+}
+#copyright p {
+    color: var(--light);
+    font-family: var(--body-font);
+    font-size: 16px;
+    line-height: 28px;
+    padding: 21px 0;
+}
+#copyright p a{
+    color: var(--primary-color-light);
+}
+/* =========== Copyright Section Css End =========== */
+
+/* =========== Search Modal Section Css Start =========== */
+#search_modal {
+    position: fixed;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.9);
+    transform: scale(0) rotate(50deg);
+    transform-origin: left;
+    transition: 0.5s;
+}
+#search_modal.show {
+    transform: scale(1) rotate(0deg);
+}
+#search_modal form {
+    border: 2px solid var(--primary-color-light);
+    border-radius: 50px;
+    padding: 15px 20px;
+}
+#search_modal form input {
+    padding: 5px;
+    background: none;
+    border: none;
+    font-size: 20px;
+    color: var(--light);
+}
+#search_modal form input::placeholder {
+    color: var(--light);
+}
+#search_modal form button {
+    background: none;
+    border: none;
+    color: var(--light);
+    font-size: 25px;
+}
+#search_modal #search_close_btn {
+    width: 60px;
+    height: 60px;
+    background: none;
+    border-radius: 50%;
+    border: 1px solid var(--primary-color-light);
+    color: var(--primary-color-light);
+    font-size: 20px;
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    transition: 0.4s;
+}
+#search_modal #search_close_btn:hover {
+    background: var(--light);
+    border-color: var(--light);
+    transform: rotate(90deg);
+}
+/* =========== Search Modal Section Css End =========== */

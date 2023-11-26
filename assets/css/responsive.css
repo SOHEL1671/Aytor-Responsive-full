@@ -1,0 +1,45 @@
+/* =========== Extra Extra Large Device Start =========== */
+@media (min-width:1400px){
+
+}
+/* =========== Extra Extra Large Device End =========== */
+
+
+/* =========== Extra Large Device Start =========== */
+@media (min-width:1200px) and (max-width:1399.98px){
+    #home_page_bannar .dot_items {
+        position: absolute;
+        bottom: 180px;
+        left: 50px;
+    }
+}
+/* =========== Extra Large Device End =========== */
+
+
+/* =========== Large Device Start =========== */
+@media (min-width:992px) and (max-width:1199.98px){
+    
+}
+/* =========== Large Device End =========== */
+
+
+/* =========== Medium Device Start =========== */
+@media (min-width:768px) and (max-width:991.98px){
+    
+}
+/* =========== Medium Device End =========== */
+
+
+/* =========== Small Device Start =========== */
+@media (min-width:576px) and (max-width:767.98px){
+    
+}
+/* =========== Small Device End =========== */
+
+
+/* =========== Extra Small Device Start =========== */
+@media (max-width:575.98px){
+    
+}
+/* =========== Extra Small Device End =========== */
+
