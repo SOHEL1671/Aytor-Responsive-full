@@ -8,18 +8,6 @@ $(function(){
     });
 });
 
-// /* Hero Slider Activation Js Start */
-// $("#home_page_bannar").slick({
-//     arrows: false,
-//     fade: true,
-//     autoplay:true,
-//     autoplaySpeed:1000,
-//     speed: 600,
-//     dots: true,
-//     dotsClass: 'slick-dots',
-// });
-// /* //Hero Slider Activation Js End */
-
 
     //Deals Activation
 let DealsEndingDate = $('.time_box_content').data('deals-time')
